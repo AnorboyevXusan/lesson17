@@ -1,0 +1,218 @@
+header {
+  padding: 20px 0;
+  background-color: #FFFFFF;
+}
+
+section {
+  padding: 20px 0;
+}
+
+.navbar__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home {
+  margin-top: 127px;
+}
+
+.navbar__menus {
+  display: none;
+}
+
+.home__left {
+  max-width: 500px;
+}
+
+.home__left * {
+  color: rgb(0, 0, 0);
+}
+
+.home__right img {
+  width: 100%;
+}
+
+.home__left h1 {
+    color: #0B132A;
+    font-size: 50px;
+}
+
+.home__left p{
+  margin-top: 20px;
+  margin-bottom: 45px;
+  color: #4F5665;
+  font-size: 16px;
+}
+
+.many-data{
+  margin-top: 127px;
+}
+
+.many-data__lenta{
+  padding: 67px 91px;
+  box-shadow: 3px 12px 14px 0px rgba(29, 43, 54, 0.3);
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.provide-many{
+  margin-bottom: 100px;
+  margin-top: 95px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 45px;
+}
+
+
+.provide-many__text h2{
+  color: #0B132A;
+  font-size: 35px;  
+}
+.provide-many__text p{
+  color: #4F5665;
+  font-size: 16px;
+}
+ 
+.peovide-many__text span{
+  color: #4F5665;
+  font-size: 14px;
+  display: block;
+}
+
+.provide-many__span{
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.brands {
+  background: linear-gradient(180deg, #F8F8F8 0%, rgba(248, 248, 248, 0.00) 100%);
+}
+
+.brands__container{
+  gap: 50px;
+}
+
+.brand-card{
+  margin-top: 60px;
+  padding: 35px;
+  text-align: center;
+  border-radius: 10px;
+  border: 2px solid #DDD;
+  
+}
+
+.brand-card h3{
+  margin-top: 25px;
+  font-size: 18px;
+  color: #0B132A;
+
+}
+
+.brand-card__span{
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  align-items: center;
+}
+
+.brand-card__span span{
+  display: inline-block;
+  margin-top: 25px;
+  color: #4F5665;
+  font-size: 14px;
+  
+}
+
+
+
+.brand-card__right__foot{
+  margin-top: 130px;
+
+}
+
+.brand-card__right__foot h3{
+  font-size: 25px;
+  color: #0B132A;
+}
+
+.brands__titule h2{
+  margin-top: 80px;
+  color: #0B132A;
+  text-align: center;
+  font-size: 35px;
+}
+.brands__titule p{
+  margin-top: 20px;
+  color: #4F5665;
+  text-align: center;
+  font-size: 16px;
+
+}
+
+
+
+.global__titul{
+  margin-top: 150px;
+ text-align: center; 
+}
+
+.global__titul h2{
+  color: #0B132A;
+  font-size: 35px;
+}
+
+.global__titul p{
+  margin-top: 20px;
+  color: #4F5665;
+  font-size: 16px;
+}
+
+.global__img{
+  margin-top: 155px;
+}
+
+.global__logo-breand {
+  margin-top: 110px;
+}
+
+.lennta-cart{
+  margin-top: 80px;
+  /* position: absolute; */
+  left: 200px;
+  padding: 80px 70px;
+  width: 1140px;
+  box-shadow: 3px 15px 30px 7px rgba(34, 60, 80, 0.29);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.lenta-cart__text h4{
+  color: #0B132A;
+  font-size: 32px;
+
+}
+.lenta-cart__text p{
+  color: #4F5665;
+  margin-top: 20px;
+}
+
+
+
+
+.footer-bag{
+  background-color:  #F8F8F8;
+}
+.footer-me {
+   
+}
+
+.footr-ul{
+  margin-top: 300px;
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,63 @@
+/* first-desktop */
+
+/* @media only screen and (max-width: 1200px) {
+  body {
+    background-color: red;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  body {
+    background-color: green;
+  }
+} */
+
+/* first-mobile */
+
+/* @media (min-width: 600px) {
+  body {
+    background-color: blue;
+  }
+}
+
+@media (min-width: 1000px) {
+  body {
+    background-color: yellow;
+  }
+}
+
+@media (min-width: 1300px) {
+  body {
+    background-color: orange;
+  }
+} */
+
+@media (min-width: 700px) {
+  .home__container {
+    display: flex;
+    justify-content: space-between;
+    gap: 184px;
+  }
+}
+
+@media (min-width: 800px) {
+  .navbar__menus {
+    display: block;
+  }
+  .navbar__list {
+    display: flex;
+    gap: 27px;
+  }
+  .navbar__hamburger {
+    display: none;
+  }
+  .brands__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .many-data__lenta{
+    /* flex-flow: column;
+    gap: 50px; */
+  }
+}

@@ -1,0 +1,16 @@
+.container,
+.container-lg {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.container {
+  /* 1500-2*200+2*20=1140 */
+  max-width: 1140px;
+}
+
+.container-lg {
+  max-width: 1440px;
+}
